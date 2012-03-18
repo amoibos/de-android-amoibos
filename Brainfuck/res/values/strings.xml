@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Brainfuck</string>
+    <string name="program">input</string>
+    <string name="output">output</string>
+    <string name="commands">commands</string>
+    <string name="lower">&lt;</string>
+    <string name="bracketopen">[</string>
+    <string name="bracketclose">]</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="period">.</string>
+    <string name="comma">,</string>
+    <string name="greater">&gt;</string>
+    <string name="clear">clear</string>
+    <string name="run">run</string>
+    <string name="defaultcode">&gt;+++++++++[&lt;++++++++&gt;-]&lt;.&gt;+++++++[&lt;++++&gt;-]&lt;+.+++++++..+++.[-]&gt;++++++++[&lt;++++&gt;-]&lt;.#&gt;+++++++++++[&lt;+++++&gt;-]&lt;.&gt;++++++++[&lt;+++&gt;-]&lt;.+++.------.--------.[-]&gt;++++++++[&lt;++++&gt;-]&lt;+.[-]++++++++++.</string>
+    <string name="dispose">D</string>
+    <string name="bottle"># 99 Bottles of Beer
+# Brainfuck version
+# by Michal Wojciech Tarnowski
+
+
+                +&gt;+++++++[&gt;&gt;&gt;+++
+                 +++++&lt;&lt;&lt;&lt;+++++
+               +++&gt;-]+++++++++&gt;&gt;&gt;
+                +&gt;&gt;++++++++++[&gt;+
+                 +++++++++&lt;-]&gt;[
+                 &gt;&gt;+&gt;+&gt;+&gt;+&gt;+&gt;+&gt;
+                 +&gt;&gt;+&gt;+&gt;&gt;+&gt;+&gt;+&gt;
+                 +&gt;&gt;+&gt;+&gt;&gt;+&gt;+&gt;+&gt;
+                 &gt;+&gt;+&gt;+&gt;+&gt;&gt;&gt;&gt;&gt;+
+                 &gt;+&gt;+&gt;+&gt;&gt;+&gt;+&gt;+&gt;
+                 &gt;+&gt;+&gt;+&gt;+&gt;&gt;+&gt;+&gt;
+                +&gt;&gt;+&gt;+&gt;+&gt;+&gt;&gt;+&gt;+&gt;
+                &gt;+&gt;+&gt;+&gt;+&gt;+&gt;+&gt;&gt;&gt;&gt;
+                +&gt;+&gt;&gt;+&gt;+&gt;+&gt;+&lt;&lt;&lt;&lt;
+                &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+               &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+               &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+               &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+               -]&lt;++++[&gt;++++++++&lt;
+               -]&gt;[&gt;+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;+&gt;&gt;&gt;
+               +&gt;&gt;&gt;&gt;&gt;+&gt;&gt;&gt;+&gt;&gt;&gt;&gt;+&gt;&gt;
+              &gt;&gt;&gt;+&gt;+&gt;&gt;+&gt;&gt;&gt;&gt;&gt;+&gt;&gt;&gt;&gt;+
+              &gt;&gt;&gt;&gt;&gt;+&gt;&gt;&gt;&gt;+&gt;&gt;&gt;&gt;&gt;+&gt;&gt;&gt;
+              +&gt;&gt;&gt;&gt;&gt;&gt;&gt;+&gt;+&gt;+&gt;&gt;&gt;+&gt;&gt;&gt;
+              &gt;&gt;+&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+              &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+             &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+            &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;-]+++++[
+           &gt;&gt;&gt;++&gt;+++&gt;+++&gt;++&gt;&gt;+++&gt;&gt;++&gt;
+          &gt;&gt;&gt;&gt;&gt;+++&gt;&gt;++&gt;++&gt;&gt;+++&gt;+&gt;&gt;&gt;+++
+        +&gt;-&gt;++&gt;++&gt;++&gt;+++&gt;++&gt;&gt;---&gt;-&gt;+&gt;&gt;&gt;+
+       +&gt;++&gt;&gt;&gt;&gt;++&gt;++++&gt;++&gt;&gt;-&gt;++&gt;&gt;&gt;++&gt;-&gt;++
+     +&gt;+++&gt;&gt;+&gt;+++&gt;&gt;&gt;+++&gt;++&gt;+++&gt;++&gt;&gt;&gt;++&gt;&gt;++&gt;
+    ++&gt;&gt;++&gt;++&gt;+++&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+   &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+  &lt;&lt;&lt;&lt;-]&gt;&gt;--&gt;+&gt;+&gt;+&gt;--&gt;+&gt;&gt;&gt;+&gt;++&gt;&gt;--&gt;+&gt;+&gt;-&gt;&gt;+&gt;&gt;&gt;
+  +&gt;-&gt;+&gt;&gt;-&gt;++&gt;--&gt;--&gt;++&gt;-&gt;&gt;&gt;-&gt;++&gt;++&gt;+&gt;&gt;+&gt;&gt;+&gt;&gt;&gt;+
+ &gt;-&gt;&gt;&gt;++&gt;&gt;&gt;&gt;++&gt;++&gt;&gt;&gt;&gt;&gt;+&gt;&gt;++&gt;-&gt;+&gt;++&gt;&gt;&gt;&gt;+++&gt;&gt;&gt;+&gt;&gt;
+ -&gt;+&gt;-&gt;+&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;[&gt;&gt;&gt;&gt;++
+++++++++[-&gt;[-]+&gt;[-]&lt;&lt;[&lt;&lt;&lt;&lt;&lt;.&gt;&gt;&gt;&gt;.&gt;&gt;&gt;&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.
+&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;&gt;
+&gt;.&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;.&gt;&gt;&gt;&gt;.&gt;
+&gt;&gt;&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+.&gt;.&gt;&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.
+&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+&lt;&lt;&lt;&lt;.&gt;&gt;&gt;&gt;-.&gt;&gt;&gt;&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.
+&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;&gt;.&gt;..&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;-]&gt;[&lt;&lt;&lt;&lt;&lt;-&gt;[-]+&gt;[-]&lt;&lt;[&lt;.&gt;&gt;&gt;&gt;.&gt;&gt;&gt;&gt;.&gt;.
+&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.
+&gt;.&gt;.&gt;.&gt;&gt;&gt;.&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+&lt;.&gt;&gt;&gt;&gt;.&gt;&gt;&gt;&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;&gt;&gt;&gt;&gt;&gt;
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;.&gt;.&gt;&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.
+&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;-.&gt;&gt;&gt;&gt;+++++++++.&gt;&gt;&gt;&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;
+.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;&gt;.&gt;..&lt;&lt;&lt;
+&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;-]&gt;[&lt;&lt;.&gt;&gt;&gt;&gt;.&gt;&gt;&gt;
+&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.
+&gt;.&gt;.&gt;.&gt;.&gt;.&gt;&gt;&gt;.&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+&lt;&lt;&lt;&lt;&lt;.&gt;&gt;&gt;&gt;.&gt;&gt;&gt;&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;&gt;
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;.&gt;.&gt;&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.
+&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;+++++++++.&gt;&gt;&gt;&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;
+.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;&gt;.&gt;..&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;-&gt;]&lt;&lt;+&gt;&gt;&gt;&gt;&gt;-&gt;]&lt;&lt;]&lt;&lt;&lt;&lt;
+-]&gt;&gt;&gt;&gt;++++++++[-&gt;[-]+&gt;[-]&lt;&lt;[&lt;.&gt;&gt;&gt;&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;
+.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;&gt;&gt;.&lt;
+&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;.&gt;&gt;&gt;&gt;.&gt;.&gt;.&gt;.&gt;.
+&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;.&gt;.&gt;&gt;.&gt;.&gt;.&gt;.
+&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.
+&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;-.&gt;&gt;&gt;&gt;.&gt;.&gt;.&gt;
+.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;
+.&gt;&gt;.&gt;..&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;-]&gt;[&lt;&lt;.&gt;&gt;
+&gt;&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;
+.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;&gt;&gt;.&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+&lt;&lt;.&gt;&gt;&gt;&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+&gt;&gt;&gt;&gt;.&gt;.&gt;&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.
+&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+&lt;&lt;&lt;&lt;-.&gt;&gt;&gt;&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.
+&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;&gt;.&gt;..&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+&lt;&lt;&lt;&lt;&lt;&lt;-&gt;]&lt;&lt;]&lt;.&gt;&gt;&gt;&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.
+&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;&gt;&gt;.&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;.&gt;&gt;&gt;&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.
+&gt;.&gt;.&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;.&gt;.&gt;&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.
+&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.
+&gt;.&gt;.&gt;.&gt;.&gt;.&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.
+ &gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;.&gt;&gt;.&gt;</string>
+    <string name="ok">ok</string>
+    <string name="cancel">cancel</string>
+    <string name="input">input</string>
+
+</resources>

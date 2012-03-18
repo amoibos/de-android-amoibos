@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/RelativeLayout1">
+    <EditText android:gravity="bottom" android:focusable="false" android:cursorVisible="false" android:id="@+id/editText1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:inputType="numberSigned" android:text="@string/zero">
+        <requestFocus></requestFocus>
+    </EditText>
+    <TableLayout android:id="@+id/tableLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:text="@string/sieben" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/button1" android:layout_weight="1"></Button>
+            <Button android:text="@string/acht" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/button2" android:layout_weight="1"></Button>
+            <Button android:text="@string/neun" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/button3" android:layout_weight="1"></Button>
+            <Button android:text="@string/plus" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/button4" android:layout_weight="1"></Button>
+            <Button android:text="@string/backspace" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="bottom" android:id="@+id/button17" android:layout_weight="1"></Button>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow2" android:layout_weight="1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:text="@string/vier" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/button5" android:layout_weight="1"></Button>
+            <Button android:text="@string/fuenf" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/button6" android:layout_weight="1"></Button>
+            <Button android:text="@string/sechs" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/button7" android:layout_weight="1"></Button>
+            <Button android:text="@string/minus" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/button8" android:layout_weight="1"></Button>
+            <Button android:text="@string/clear" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="bottom" android:id="@+id/button18" android:layout_weight="1"></Button>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow3" android:layout_weight="1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:text="@string/eins" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/button9" android:layout_weight="1"></Button>
+            <Button android:text="@string/zwei" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/button10" android:layout_weight="1"></Button>
+            <Button android:text="@string/drei" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/button11" android:layout_weight="1"></Button>
+            <Button android:text="@string/mal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/button12" android:layout_weight="1"></Button>
+            <Button android:text="@string/hoch" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="bottom" android:id="@+id/button19" android:layout_weight="1"></Button>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow4" android:layout_weight="1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:text="@string/vorzeichen" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/button13" android:layout_weight="1"></Button>
+            <Button android:text="@string/zero" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/button14" android:layout_weight="1"></Button>
+            <Button android:text="@string/punkt" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/button15" android:layout_weight="1"></Button>
+            <Button android:text="@string/durch" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/button16" android:layout_weight="1"></Button>
+            <Button android:text="@string/gleich" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="bottom" android:id="@+id/button20" android:layout_weight="1"></Button>
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

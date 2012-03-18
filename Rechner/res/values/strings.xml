@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, RechnerActivity!</string>
+    <string name="app_name">Rechner</string>
+    <string name="zero">0</string>
+    <string name="eins">1</string>
+    <string name="zwei">2</string>
+    <string name="drei">3</string>
+    <string name="vier">4</string>
+    <string name="fuenf">5</string>
+    <string name="sechs">6</string>
+    <string name="sieben">7</string>
+    <string name="acht">8</string>
+    <string name="neun">9</string>
+    <string name="punkt">.</string>
+    <string name="vorzeichen">+/-</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="mal">*</string>
+    <string name="durch">/</string>
+    <string name="gleich">=</string>
+    <string name="backspace">&lt;</string>
+    <string name="clear">C</string>
+    <string name="hoch">^</string>
+</resources>
